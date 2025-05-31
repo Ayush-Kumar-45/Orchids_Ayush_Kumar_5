@@ -17,8 +17,9 @@ Molecular orbital (MO) theory describes the behavior of electrons in molecules i
 The relative energy ordering of molecular orbitals changes across the periodic table:
 
 1. For Z < 8 (Before Oxygen): σ(2s) < σ*(2s) < π(2px) = π(2py) < σ(2pz) < π*(2px) = π*(2py) < σ*(2pz)
-2. For Z ≥ 8 (Oxygen and beyond): σ(2s) < σ*(2s) < σ(2pz) < π(2px) = π(2py) < π*(2px) = π*(2py) < σ*(2pz)
-****Magnetic Properties****
+2. For Z ≥ 8 (Oxygen and beyond): σ(2s) < σ*(2s) < σ(2pz) < π(2px) = π(2py) < π*(2px) = π*(2py) < σ*(2pz)<br>
+
+****Magnetic Properties****<br>
 Molecules with unpaired electrons are paramagnetic (attracted to magnetic fields), while those with all electrons paired are diamagnetic (slightly repelled by magnetic fields).
 
 ****Practical Applications****<br>
