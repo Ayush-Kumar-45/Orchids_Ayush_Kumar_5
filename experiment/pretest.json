@@ -1,36 +1,87 @@
-{
+ {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the following is true about bonding molecular orbitals?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "They result from destructive interference of atomic orbitals",
+        "b": "They have higher energy than the original atomic orbitals",
+        "c": "They increase electron density between the nuclei",
+        "d": "They always contain paired electrons"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Destructive interference forms antibonding orbitals.",
+        "b": "Incorrect. Bonding orbitals have lower energy.",
+        "c": "Correct. Bonding orbitals increase electron density between the nuclei, stabilizing the molecule.",
+        "d": "Incorrect. Bonding orbitals can have unpaired electrons depending on electron configuration."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In a homonuclear diatomic molecule, which molecular orbital has the highest energy among the following?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "σ(1s)",
+        "b": "σ*(1s)",
+        "c": "σ(2s)",
+        "d": "σ*(2p)"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. σ(1s) is a low-energy bonding orbital.",
+        "b": "Incorrect. σ*(1s) is higher than σ(1s) but lower than σ*(2p).",
+        "c": "Incorrect. σ(2s) is a bonding orbital and lower in energy.",
+        "d": "Correct. σ*(2p) is among the highest energy MOs in diatomic molecules."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The bond order of N₂ molecule according to molecular orbital theory is:",
+      "answers": {
+        "a": "2",
+        "b": "2.5",
+        "c": "3",
+        "d": "3.5"
+      },
+      "explanations": {
+        "a": "Incorrect. This is the bond order of O₂, not N₂.",
+        "b": "Incorrect. 2.5 would suggest fractional bonding not applicable to N₂.",
+        "c": "Correct. N₂ has a bond order of 3, indicating a strong triple bond.",
+        "d": "Incorrect. Bond order of 3.5 would not apply to N₂."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following statements is true for heteronuclear diatomic molecules?",
+      "answers": {
+        "a": "All atomic orbitals mix equally",
+        "b": "The more electronegative atom contributes more to bonding orbitals",
+        "c": "Bond order is always an integer",
+        "d": "There is no mixing of orbitals from different atoms"
+      },
+      "explanations": {
+        "a": "Incorrect. Orbital mixing depends on energy compatibility.",
+        "b": "Correct. The more electronegative atom contributes more to bonding MOs.",
+        "c": "Incorrect. Bond orders can be fractional in heteronuclear molecules.",
+        "d": "Incorrect. Orbital mixing is fundamental to MO theory."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which pair is an example of a heteronuclear diatomic molecule?",
+      "answers": {
+        "a": "O₂",
+        "b": "N₂",
+        "c": "HCl",
+        "d": "Cl₂"
+      },
+      "explanations": {
+        "a": "Incorrect. O₂ is homonuclear.",
+        "b": "Incorrect. N₂ is homonuclear.",
+        "c": "Correct. HCl is made of hydrogen and chlorine — two different atoms.",
+        "d": "Incorrect. Cl₂ is homonuclear."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
