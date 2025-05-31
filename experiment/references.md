@@ -6,7 +6,8 @@
  
 
 ****BOOKS:-****<br>
-[1] ****NCERT Chemistry Textbook for Class 11 – Part 1****Chapter 4 – Chemical Bonding and Molecular Structure 
+[1] ****NCERT Chemistry Textbook for Class 11 – Part 1**** Chapter 4 – Chemical Bonding and Molecular Structure<br> 
+
 [2] ****Chemical Bonding and Molecular Structure” by G. Raj****<br>
  
  
