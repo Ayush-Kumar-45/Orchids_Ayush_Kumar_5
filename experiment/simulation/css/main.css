@@ -1,0 +1,293 @@
+:root {
+    --primary: #4a6fa5;
+    --secondary: #166088;
+    --accent: #4fc3f7;
+    --background: #f5f7fa;
+    --card: #ffffff;
+    --text: #333333;
+    --border: #e0e0e0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+h1 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: var(--secondary);
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: var(--card);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    flex: 1;
+    min-width: 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+input[type="number"], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+input[type="number"]:focus, select:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.result-card {
+    flex: 1;
+    min-width: 200px;
+    background-color: var(--primary);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.result-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.result-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.visualization-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.visualization {
+    flex: 1;
+    min-width: 300px;
+    height: 400px;
+    background-color: var(--card);
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+#moDiagram {
+    width: 100%;
+    height: 100%;
+}
+
+#orbital3d {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.orbital-info {
+    margin-top: 20px;
+}
+
+.orbital-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.orbital-table th, .orbital-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.orbital-table th {
+    background-color: var(--primary);
+    color: white;
+}
+
+.orbital-table tr:nth-child(even) {
+    background-color: rgba(74, 111, 165, 0.1);
+}
+
+.electron {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.electron-up {
+    background-color: red;
+}
+
+.electron-down {
+    background-color: black;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    margin-right: 5px;
+    transition: all 0.3s;
+}
+
+.tab.active {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.theory-section {
+    margin-top: 30px;
+}
+
+.theory-section h3 {
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.theory-section p {
+    margin-bottom: 15px;
+}
+
+.theory-section ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: var(--secondary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.mo-diagram-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(74, 111, 165, 0.1);
+    border-radius: 5px;
+    border-left: 4px solid var(--primary);
+}
+
+.mo-diagram-info h4 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid var(--border);
+    margin-top: 30px;
+    color: var(--secondary);
+}
+
+@media (max-width: 768px) {
+    .input-group, .results, .visualization-container {
+        flex-direction: column;
+    }
+    
+    .visualization {
+        height: 300px;
+    }
+}
