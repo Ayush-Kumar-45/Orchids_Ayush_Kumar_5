@@ -1,39 +1,69 @@
-{
+ {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which molecule has a bond order of zero and does not exist under normal conditions?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "He₂",
+        "b": "H₂",
+        "c": "Li₂",
+        "d": "B₂"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. He₂ has a bond order of zero, making it unstable and non-existent under normal conditions.",
+        "b": "Incorrect. H₂ has a bond order of 1 and is stable.",
+        "c": "Incorrect. Li₂ has a bond order of 1 and can exist.",
+        "d": "Incorrect. B₂ has a bond order of 1 and is known to exist."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In the molecular orbital diagram, antibonding orbitals are represented by:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "No symbol",
+        "b": "A single line",
+        "c": "An asterisk (*)",
+        "d": "A plus (+) sign"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Antibonding orbitals must be identified.",
+        "b": "Incorrect. A single line represents an orbital, not its type.",
+        "c": "Correct. Antibonding orbitals are denoted by an asterisk (*).",
+        "d": "Incorrect. '+' is not a conventional symbol for antibonding orbitals."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
-    }
-  ]
-}
+    },
+    {
+      "question": "Which of the following diatomic species is paramagnetic?",
+      "answers": {
+        "a": "N₂",
+        "b": "O₂⁻",
+        "c": "CO",
+        "d": "F₂"
+      },
+      "explanations": {
+        "a": "Incorrect. N₂ has all paired electrons.",
+        "b": "Correct. O₂⁻ has one unpaired electron in a π* orbital, making it paramagnetic.",
+        "c": "Incorrect. CO has all paired electrons.",
+        "d": "Incorrect. F₂ is diamagnetic with no unpaired electrons."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The energy gap between bonding and antibonding orbitals is greatest for which of the following?",
+      "answers": {
+        "a": "H₂",
+        "b": "O₂",
+        "c": "He₂",
+        "d": "N₂"
+      },
+      "explanations": {
+        "a": "Correct. H₂ has the largest energy separation between σ1s and σ*1s orbitals due to the small size and high bonding-antibonding difference.",
+        "b": "Incorrect. O₂ has smaller energy gaps compared to H₂.",
+        "c": "Incorrect. He₂ does not have a large energy gap; its bond order is zero.",
+        "d": "Incorrect. N₂ has a moderate energy gap, not the greatest."
+      },
+      "correctAnswer": "a"
