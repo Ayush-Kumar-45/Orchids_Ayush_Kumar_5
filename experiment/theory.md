@@ -21,7 +21,8 @@ The relative energy ordering of molecular orbitals changes across the periodic t
 ****Magnetic Properties****
 Molecules with unpaired electrons are paramagnetic (attracted to magnetic fields), while those with all electrons paired are diamagnetic (slightly repelled by magnetic fields).
 
-****Practical Applications****
+****Practical Applications****<br>
+
 Molecular orbital theory helps explain:
 
 1. Why O₂ is paramagnetic despite having an even number of electrons.
