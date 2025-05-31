@@ -20,7 +20,7 @@ The relative energy ordering of molecular orbitals changes across the periodic t
 
 1. For Z < 8 (Before Oxygen): σ(2s) < σ*(2s) < π(2px) = π(2py) < σ(2pz) < π*(2px) = π*(2py) < σ*(2pz)
 2. For Z ≥ 8 (Oxygen and beyond): σ(2s) < σ*(2s) < σ(2pz) < π(2px) = π(2py) < π*(2px) = π*(2py) < σ*(2pz)<br> 
-<img src="https://github.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_5/blob/main/experiment/images/molecular%201.png" height="600px">
+<img src="https://github.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_5/blob/main/experiment/images/molecular%201.png" height="400px">
 
 
 ---
