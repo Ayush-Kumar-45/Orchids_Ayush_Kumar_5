@@ -4,7 +4,7 @@
 
 Molecular orbital (MO) theory describes the behavior of electrons in molecules in terms of combinations of atomic orbitals. When atoms bond to form molecules, their atomic orbitals combine to form molecular orbitals that are spread over the entire molecule.
 
----
+
 ****Features:-**** <br>
 
 1.Bonding Orbitals: Lower in energy than the original atomic orbitals, promote bonding.<br>
