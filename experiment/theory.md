@@ -1,5 +1,4 @@
- ## MOLECULAR ORBITAL SIMULATOR
- ## (For Homonuclear & Heteronuclear Diatomic Molecules)<br>
+ ## MOLECULAR ORBITAL SIMULATOR (For Homonuclear & Heteronuclear Diatomic Molecules)<br>
 
 ****Basic Principles****<br>
 
